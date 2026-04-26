@@ -1,0 +1,21 @@
+.main-container {
+  display: flex;
+  height: 100vh; /* Ocupa a tela toda */
+  width: 100vw;
+  color: rgb(0, 0, 0);
+}
+
+.sidebar {
+  flex: 0 0 20%; /* Fixa em 20% */
+  background-color: #1A1A1A;
+  color: rgb(0, 0, 0);
+  padding-top: 20px;
+  border-right: 1px solid #333;
+}
+
+.content {
+  flex: 1; /* Ocupa os 80% restantes */
+  background-color: #212020;
+  padding: 30px;
+  overflow-y: auto; /* Scroll apenas aqui se os dados forem muitos */
+}
